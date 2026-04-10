@@ -6,7 +6,7 @@ Este proyecto tiene como finalidad desarrollar un sistema de predicción de agot
 - **Scripts de procesamiento**: ingesta, limpieza, transformación y validación de datos.
 - **Base de datos PostgreSQL**: para la carga y consulta estructurada de los datasets.
 - **Metabase (opcional)**: dashboard de visualización de resultados.
--**Machine learning**:Modelado, entrenamiento y evaluación
+- **Machine learning**:Modelado, entrenamiento y evaluación
 - **Documentación**: diseño técnico completo + planificación.
 ---
 
@@ -17,18 +17,7 @@ Este proyecto tiene como finalidad desarrollar un sistema de predicción de agot
 - Docker
 - Google Android  
 - Git / GitHub  
-- Trello / Jira (planificación)
-
----
-
-## Tecnologías utilizadas
-
-- VS code
-- PostgreSQL
-- Docker
-- Google Android  
-- Git / GitHub  
-- Trello / Jira (planificación)
+- Trello / Jira
 
 ---
 
@@ -59,6 +48,7 @@ El documento de diseño técnico está disponible en:
 
 ## Equipo
 
-Dylan Cruz
-Martin Calderon
-Sebastian Garrido
+- Martin Calderon  – Procesamiento y limpieza  
+- Dylan Cruz – Modelado y entrenamiento  
+- Sebastian Garrido – Visualización y documentación
+

@@ -21,6 +21,47 @@ Este proyecto tiene como finalidad desarrollar un sistema de predicción de agot
 
 ---
 
+## Pipeline implementado
+
+| Etapa | Descripción |
+|-------|-------------|
+| 1. Diseño e instalación | Estructura de carpetas, setup del entorno, definición de herramientas |
+| 2. Ingesta | Lectura desde CSV (hoja de cálculo google ), carga a memoria |
+| 3. Limpieza | Eliminación de duplicados, tratamiento de nulos, revisión de tipos |
+| 4. Transformación | Creación de variables como días sin reposición, tasa de ventas, etc. |
+| 5. Validación | Revisión de rangos, tipos, coherencia; validación básica |
+| 6. Carga en PostgreSQL | Subida del dataset limpio y validado a la base de datos local |
+| 7. Entrenamiento IA | Clasificación binaria con scikit-learn para variable `SeAgotara` |
+| 8. Evaluación | Métricas como accuracy, recall; revisión de logs de ejecución |
+| 9. Visualización | Panel con predicciones, stock proyectado y alertas según la predicción de la IA |
+
+
+
+
+---
+
+## 📂 Estructura del repositorio
+
+```
+agotamiento-stock/
+├── README.md
+├── docs/
+│   └── diseño_tecnico.pdf
+├── scripts/
+│   ├── ingesta.py
+│   ├── limpieza.py
+│   ├── transformacion.py
+│   └── entrenamiento.py
+├── data/
+│   ├── stock.csv
+│   └── productos_ventas.csv
+├── dashboards/
+│   └── foto_inventada.png
+```
+
+---
+
+
 ## Cómo ejecutar el sistema (entorno ya instalado)
 
 1. Clonar el repositorio  

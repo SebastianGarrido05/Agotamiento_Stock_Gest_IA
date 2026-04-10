@@ -1,4 +1,4 @@
-# Predicción de Agotamiento de Stock en Productos
+# Agotamiento_Stock_Gest_IA
 Este proyecto tiene como finalidad desarrollar un sistema de predicción de agotamiento de stock
 ---
 
@@ -53,6 +53,12 @@ Este proyecto tiene como finalidad desarrollar un sistema de predicción de agot
 ## Documentación técnica
 
 El documento de diseño técnico está disponible en:  
-[`docs/doc_planificacion.pdf`](docs/doc_planificacion.pdf)
+[`docs/Diseno_Tecnico.pdf`](docs/Diseno_Tecnico.pdf)
 
 ---
+
+## Equipo
+
+Dylan Cruz
+Martin Calderon
+Sebastian Garrido
